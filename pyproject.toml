@@ -1,5 +1,5 @@
 [project]
-name = "APVisions Photo Downloader"
+name = "apvisions-photo-downloader"
 version = "0.1.0"
 description = "APVisions Photo Downloader"
 readme = "README.md"
