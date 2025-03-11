@@ -1,0 +1,17 @@
+[project]
+name = "apvision"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "httpx>=0.28.1",
+    "lxml>=5.3.1",
+]
+
+[dependency-groups]
+dev = [
+    "black>=25.1.0",
+    "isort>=6.0.1",
+    "pylint>=3.3.5",
+]
