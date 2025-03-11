@@ -1,7 +1,7 @@
 [project]
-name = "apvision"
+name = "APVisions Photo Downloader"
 version = "0.1.0"
-description = "Add your description here"
+description = "APVisions Photo Downloader"
 readme = "README.md"
 requires-python = ">=3.11"
 dependencies = [
