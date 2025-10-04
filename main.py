@@ -16,7 +16,7 @@ photo_ids = [re.search(r"'([a-z0-9]{32})'", photo).group(1) for photo in photos]
 counter = 1
 for id in photo_ids:
     # replace this with the right url by doing a trial high res download from apvision (there are query params like "p", "fp", and "did" that we cannot determine automatically)
-    url = f"https://www.apvisions.com/_app/sy-inc/store/freedownload.php?p=b7aadaa9a2a5f866214d62616a49c72e&fp=1c383cd30b7c298ab50293adfecb7b18&did=aebf428799f36456510413c389b740f9&dem=org&gsbgphoto={id}"
+    url = f"https://www.apvisions.com/_app/sy-inc/store/freedownload.php?p=f3c159e10766a99fa9cdfdc084960bb3&fp=1c383cd30b7c298ab50293adfecb7b18&did=482bd57ea95bb42cc15c82d63af42ea9&dem=org&gsbgphoto={id}"
     with httpx.stream("GET", url) as response:
         response.raise_for_status()
         file_path = f"eleanor-chan-{'0' + str(counter) if counter < 10 else counter}.jpg"
